@@ -1,0 +1,493 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    }
+    
+    body{
+    background-color: turquoise;
+    color: black;
+    
+    }
+    
+    .Main_Container{
+    max-width: 985px;
+    margin: 0px auto;
+    background-color: gainsboro;
+    color:teal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    }
+    
+    /*-------------------
+     Header Info Design.
+    --------------------*/
+    
+    .Image_Logo{
+      height: 120px;
+      width: 130px;
+      outline: 2px solid whitesmoke;
+      outline-offset: 3px;
+      border-radius: 2px;
+        
+     }
+        
+    .Header_Left_Card{
+     padding: 30px 25px;
+     height: auto;
+     width: 220px;
+     float: left;
+    
+    }
+    
+    .Header_Middle_Card{
+     padding: 20px 0px;
+     height: auto;
+     width: 220px;
+     float: left; 
+     margin-left: -85px;   
+    
+    }
+    
+    .Header_Right_Card{
+     float: right;
+     padding: 20px 20px;
+    
+     }
+    
+     .Header_Right_Card, ul li, a{
+      list-style-type: none;
+      text-decoration: none;
+      color: teal;
+      font-weight: bold;
+    
+     }
+    
+     .Header_Right_Card ul li a:hover{
+      text-decoration: underline;
+      color: orangered;
+      font-weight: bold;
+    
+    }
+    
+    .Hr{
+    border: 3px solid grey;
+    border-bottom: none;
+    width: 98%;
+    margin: 0px auto;
+    
+    }
+    
+    .Hr_All{
+      border: 2px solid grey;
+      border-bottom: none;
+      width: 98%;
+      margin-left: 0.7%;
+      
+    }
+      
+    .Clear{
+     clear: both;
+    
+    }
+    
+    /*................
+      Personal Info
+    ..................*/
+    .Personal_Left{
+      width: 35%;
+      float: left;
+      padding: 10px 20px;
+    
+    }
+    
+    .Personal_Right{
+      width: 65%;
+      float: right;
+      padding: 20px 20px;
+      margin-top: -50px;
+    
+    }
+    .Personal_H1{
+      font-weight: bold;
+      font-size: 24px;
+      color: teal;
+      
+    }
+      
+    
+    /*................
+       Contact Info
+    ..................*/
+    
+    .Contact_Left{
+      width: 35%;
+      float: left;
+      padding: 20px 20px;
+    
+    }
+    .Contact_Right{
+      width: 65%;
+      float: right;
+      padding-right: 5px;
+      margin-top: -40px;
+      
+    }
+    
+    .Span_Light{
+    font-weight: bold;
+    color: teal;
+    
+    }
+    .Contact_H1{
+    font-weight: bold;
+    font-size: 24px;
+    
+    }
+    
+    
+    /*---------------
+     Education Info
+    -----------------*/
+    .Education_Left{
+    width: 35%;
+    float: left;
+    padding: 20px 20px;
+    
+    }
+    
+    .Education_Right{
+      width: 65%;
+      float: right;
+      padding-right: 5px;
+      margin-top: -40px;
+      
+    }
+    
+    .Edu_Temp_Left{
+    width: 20%;
+    padding-left: 20px;
+    float: left;
+    
+    
+    }
+    
+    .Edu_Temp_Right{
+      width: 80%;
+      padding-left: 20px;
+      padding-right: 10px;
+      padding-bottom: 30px;
+      margin-top: -18px;
+      float: right;
+      
+    }
+    .Education_H1{
+    font-weight: bold;
+    font-size: 24px;
+    
+    }
+    
+    
+    /*---------------
+      Skills Info
+    -----------------*/
+    .Skills_Left{
+      width: 35%;
+      padding-left: 20px;
+      float: left;
+    
+    }
+    .Skills_Right{
+      width: 65%;
+      padding-left: 20px;
+      padding-right: 10px;
+      padding-bottom: 30px;
+      margin-top: -18px;
+      float: right;
+    
+    }
+    .Skills_H3{
+    background-color: teal;
+    color: whitesmoke;
+    text-align: center;
+    
+    }
+
+    .Skills_Temp_Left{
+     width: 45%;
+     padding-left: 20px;
+     float: left;
+    
+    }
+
+    .Skills_Temp_Right{
+      width: 55%;
+      padding-left: 20px;
+      padding-right: 10px;
+      padding-bottom: 30px;
+      margin-top: -18px;
+      float: right;
+      
+    }
+    
+     p{
+     color: black;
+     font-weight: lighter;
+      
+     }
+      
+     .Skills_Card{
+       height: 250px;
+       width: 280px;
+       border: 3px solid teal;
+       border-radius: 5px;
+       float: right;
+       margin-top: 30px;
+       margin-left: -10px;
+        
+    }
+    .Skills_Ol{
+     margin-left: 25px;
+     margin-top: 10px;
+     line-height: 2;
+     font-weight: lighter;
+     color: black;
+    
+    }
+    
+    
+    /*..........................
+      Reference Design Works
+    ............................*/
+    .MyVideo{
+     height: 200px;
+     width: 310px;
+     background-color: olivedrab;
+     border: 8px solid orange;
+     border-radius: 35px;
+    
+    }
+    .Reference_Left{
+      width: 35%;
+      padding-left: 20px;
+      float: left;
+    
+    }
+    .Reference_Right{
+     width: 65%;
+     padding-left: 10px;
+     padding-right: 10px;
+     padding-bottom: 30px;
+     margin-top: -18px;
+     float: right;
+    
+    }
+    
+    .Reference_Temp_Left{
+      width: 35%;
+      padding-left: 20px;
+      float: left;
+    
+    }
+    
+    .Reference_Temp_Right{
+      width: 65%;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 110px;
+      margin-top: -18px;
+      float: right;
+    
+    }
+
+    .Reference_H1{
+    font-weight: bold;
+    color: teal;
+    font-size: 24px;
+    
+    }
+    /*--------------------------
+      Footer Part Design Works
+    ----------------------------*/
+    .Footer_Card{
+    background-color: teal;
+    padding: 15px;
+    padding-top: 30px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    }
+
+    .Footer_Card a{
+     background-color: black;
+     color: whitesmoke;
+     padding: 5px;
+     border: 1px solid grey;
+     border-radius: 5px;
+     box-shadow: 1px 1px 3px black;
+     margin-left: 20px; 
+     
+     }
+     .Footer_Card a:hover{
+      background-color: cyan;
+      color: #000;
+      padding: 5px;
+      border: 1px solid grey;
+      border-radius: 5px;
+      box-shadow: 1px 1px 3px black;
+      margin-left: 20px; 
+      
+      }
+  .Footer_P{
+   padding: 10px;
+   padding-top: 20px;
+   font-weight: bold;
+   color: wheat;
+
+   }
+
+    /*---------------------------
+    ...Responsive Design Works...
+    .............................*/
+    @media only screen and (max-width:860px){
+      .Personal_Left{
+        width: 25%;
+        float: left;
+        padding: 20px 10px;
+      
+         }
+      
+      .Personal_Right{
+        width: 55%;
+        float: right;
+        padding: 20px 10px;
+        margin-top: -45px;
+      
+         }
+    
+      .Personal_H1{
+        font-weight: bold;
+        font-size: 24px;
+        color: teal;
+        margin-top: -50px;
+        
+        } 
+    
+        /*Contact Res Info*/
+        .Contact_Left{
+          width: 25%;
+          float: left;
+          padding: 20px 10px;
+        
+        }
+        .Contact_Right{
+          width: 55%;
+          float: right;
+          padding-right: 5px;
+          margin-top: 25px;
+          
+        }
+        
+        .Span_Light{
+        font-weight: bold;
+        color: teal;
+        
+        }
+        .Contact_H1{
+        font-weight: bold;
+        font-size: 24px;
+        
+        }
+        
+       /*Education works*/
+        .Education_Left{
+          width: 35%;
+          float: left;
+          padding: 20px 10px;
+          
+         }
+          
+         .Education_Right{
+            width: 65%;
+            float: right;
+            padding-right: 5px;
+            margin-top: -40px;
+            
+          }
+          
+          .Edu_Temp_Left{
+          width: 45%;
+          padding-left: 10px;
+          float: left;
+          
+          }
+          
+          .Edu_Temp_Right{
+            width: 55%;
+            padding-left: 20px;
+            padding-right: 10px;
+            padding-bottom: 30px;
+            margin-top: -18px;
+            float: right;
+            
+          }
+          
+     /*Reference Works*/
+      .MyVideo{
+        height: 150px;
+        width: 250px;
+        background-color: olivedrab;
+        border: 8px solid orange;
+        border-radius: 35px;
+        position: relative;
+        left: -85px;
+        
+
+         }
+
+        .Reference_Left{
+          width: 35%;
+          padding-left: 10px;
+          float: left;
+          
+          }
+
+         .Reference_Right{
+           width: 65%;
+           padding-left: 10px;
+           padding-right: 10px;
+           padding-bottom: 30px;
+           margin-top: -18px;
+           float: right;
+          
+          }
+
+         .Reference_H1{
+          font-weight: bold;
+          color: teal;
+          font-size: 24px;
+          
+          } 
+    
+          .Reference_Temp_Left{
+            width: 35%;
+            padding-left: 20px;
+            float: left;
+            position: relative;
+            left: -130px;
+            
+          }
+          
+          .Reference_Temp_Right{
+            width: 65%;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 110px;
+            margin-top: -18px;
+            float: right;
+          
+           }
+
+
+    }
