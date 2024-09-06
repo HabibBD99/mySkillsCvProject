@@ -26,8 +26,8 @@
     .Image_Logo{
       height: 120px;
       width: 130px;
-      outline: 2px solid whitesmoke;
-      outline-offset: 3px;
+      outline: 4px solid teal;
+      outline-offset: 4px;
       border-radius: 2px;
         
      }
@@ -58,18 +58,19 @@
      .Header_Right_Card, ul li, a{
       list-style-type: none;
       text-decoration: none;
-      color: teal;
+      color: darkgreen;
       font-weight: bold;
     
      }
-    
-     .Header_Right_Card ul li a:hover{
+	 
+	
+	.Header_A:hover{
       text-decoration: underline;
       color: orangered;
       font-weight: bold;
     
     }
-    
+
     .Hr{
     border: 3px solid grey;
     border-bottom: none;
@@ -129,7 +130,7 @@
     .Contact_Right{
       width: 65%;
       float: right;
-      padding-right: 5px;
+      padding-right: 0px;
       margin-top: -40px;
       
     }
@@ -260,11 +261,11 @@
       Reference Design Works
     ............................*/
     .MyVideo{
-     height: 200px;
+     height: 170px;
      width: 310px;
      background-color: olivedrab;
-     border: 8px solid orange;
-     border-radius: 35px;
+     border: 8px solid orangered;
+     border-radius: 20px;
     
     }
     .Reference_Left{
@@ -310,10 +311,12 @@
       Footer Part Design Works
     ----------------------------*/
     .Footer_Card{
+    width: 96%;
     background-color: teal;
-    padding: 15px;
+    margin-left: 2%;
     padding-top: 30px;
     text-align: center;
+    border-radius: 3px;
     margin-top: 10px;
     margin-bottom: 10px;
 
@@ -324,23 +327,24 @@
      color: whitesmoke;
      padding: 5px;
      border: 1px solid grey;
-     border-radius: 5px;
+     border-radius: 3px;
      box-shadow: 1px 1px 3px black;
      margin-left: 20px; 
      
      }
      .Footer_Card a:hover{
-      background-color: cyan;
-      color: #000;
+      background-color: navy;
+      color: wheat;
       padding: 5px;
+      transition-duration: 63ms;
       border: 1px solid grey;
-      border-radius: 5px;
+      border-radius: 3px;
       box-shadow: 1px 1px 3px black;
       margin-left: 20px; 
       
       }
   .Footer_P{
-   padding: 10px;
+   padding: 20px;
    padding-top: 20px;
    font-weight: bold;
    color: wheat;
@@ -435,11 +439,11 @@
           
      /*Reference Works*/
       .MyVideo{
-        height: 150px;
+        height: 130px;
         width: 250px;
         background-color: olivedrab;
-        border: 8px solid orange;
-        border-radius: 35px;
+        border: 8px solid tomato;
+        border-radius: 20px;
         position: relative;
         left: -85px;
         
